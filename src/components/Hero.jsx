@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 import darkProfile from "../assets/images/profile-dark.JPG"
-import lightProfile from "../assets/images/profile-light.JPG"
+import lightProfile from "../assets/images/profile-light.jpg"
 
 
 // =========================================
