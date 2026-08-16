@@ -700,7 +700,7 @@ function Hero() {
         >
 
           {/* ========================================= */}
-          {/* BLURRED BACKDROP */}
+          {/* CLEAN BACKDROP */}
           {/* ========================================= */}
 
           <button
@@ -712,10 +712,8 @@ function Hero() {
               inset-0
               cursor-default
               border-0
-              bg-black/25
+              bg-transparent
               p-0
-              backdrop-blur-md
-              dark:bg-black/45
             "
           />
 
