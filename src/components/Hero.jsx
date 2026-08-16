@@ -175,36 +175,6 @@ function Hero() {
 
   /*
    * =========================================
-   * PREVENT BACKGROUND SCROLL
-   * =========================================
-   */
-
-  useEffect(() => {
-
-    if (!showContact) {
-      return
-    }
-
-
-    const previousOverflow =
-      document.body.style.overflow
-
-
-    document.body.style.overflow = "hidden"
-
-
-    return () => {
-
-      document.body.style.overflow =
-        previousOverflow
-
-    }
-
-  }, [showContact])
-
-
-  /*
-   * =========================================
    * IMAGE SETTINGS
    * =========================================
    */
